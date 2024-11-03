@@ -1,7 +1,6 @@
 import time
-import os
 import logging
-from flask import Flask, jsonify, request
+from flask import Flask, request
 import subprocess as sp
 
 app = Flask(__name__)

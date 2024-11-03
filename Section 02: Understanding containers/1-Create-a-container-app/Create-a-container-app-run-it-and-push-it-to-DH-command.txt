@@ -8,6 +8,6 @@ docker ps -a #Shows all the containers that are running or have exited on the lo
 
 docker rm <container-id> #Removes the container
 
-docker tag my-aro-web-app <repo>/my-aro-web-app:v1 #Creates a new tag
+docker tag my-aro-web-app nageshvagicharla/my-aro-web-app:v1 #Creates a new tag
 
-docker push <repo>/my-aro-web-app:v1 #Pushes the image to Docker Hub
+docker push nageshvagicharla/my-aro-web-app:v1 #Pushes the image to Docker Hub
